@@ -1,0 +1,59 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1699891730676-037bed3c1bed?q=80&w=2232&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background-size: cover;
+background-repeat: no-repeat;
+margin: 0;
+}
+.container {
+height: 80vh;
+width: 60vh;
+background-color: deepskyblue;
+display: flex;
+border-radius: 7%;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.login {
+font-family: Arial, Helvetica, sans-serif;    
+}
+.username {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: white;
+    width: 80%;
+    margin-left: 10%;
+}
+.password {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: white;
+    width: 80%;
+    margin-left: 10%;
+}
+.olvidar {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: white;
+    width: 80%;
+    margin-left: 10%;
+}
+.llenar {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: rgb(0, 13, 130);
+    width: 80%;
+    margin-left: 10%; 
+}
+.llenarr {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: rgb(0, 13, 130);
+    width: 80%;
+    margin-left: 10%; 
+}
