@@ -1,0 +1,203 @@
+body {
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;  
+    background-image: url(https://images.unsplash.com/photo-1699891730669-2d15cf3a5979?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+.centro {
+    width: 1100px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgb(120, 21, 120);
+    margin: 0;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(50%);
+    position: relative;
+    z-index: 1;
+}
+
+.centro .sign {
+    display: flex;
+    justify-content: flex-start;
+    justify-content: center;
+    margin: 20px;
+    padding: 600 0 0 0px;
+}
+
+.centro .derecha {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.derecha img {
+    width: auto;
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sign h3 {
+    font-weight: 800;
+    font-size: 15px
+    text-align: center;
+    justify-content: center;
+}
+
+.sign h1 {
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+}
+
+.sign .logo img {
+    display: block;
+    margin: 0 auto;
+    width: 50px;
+    height: 50px;
+}
+
+.sign .email {
+    width: 300px;
+    height: 30px;
+    margin: 30px 0;
+    display: flex;
+    flex-direction: row;
+    }
+
+.sign .email img {
+    padding: 0 0 0 15;
+    opacity: 0.3;
+    margin: 3px;
+}
+
+.sign .password img {
+    padding: 0 0 0 15;
+    opacity: 0.3;
+    margin: 3px;
+}
+
+.sign .code img {
+    padding: 0 0 0 15;
+    opacity: 0.3;
+    margin: 3px;
+}
+
+    .sign .password {
+        width: 300px;
+        height: 30px;
+        margin: 30px 0;
+        display: flex;
+        flex-direction: row;
+        } 
+
+        .sign .code {
+            width: 300px;
+            height: 30px;
+            margin: 30px 0;
+            display: flex;
+            flex-direction: row;
+            }
+
+    .email input {
+        width: 100%;
+        height: 100%;
+        background: white;
+        border: none;
+        outline: none;
+        border-radius: 40px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        color: rgba(151, 47, 195, 0.681);
+    }
+    
+    
+    .sign input::placeholder {
+    color: rgba(151, 47, 195, 0.571);
+    padding: 20px;
+    font-size: 12px;
+    }
+
+    .password input {
+        width: 100%;
+        height: 100%;
+        background: white;
+        border: none;
+        outline: none;
+        border-radius: 40px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        color: rgb(151, 47, 195);
+    }
+
+    .code input {
+        width: 100%;
+        height: 100%;
+        background: white;
+        border: none;
+        outline: none;
+        border-radius: 40px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        color: rgb(151, 47, 195);
+    }
+
+    .sign .abajo {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .abajo button {
+        width: 70px;
+        height: 28px;
+        background: rgb(151, 47, 195);
+        border: none;
+        outline: none;
+        border-radius: 40px;
+        color: white;
+        font-size: 14px;
+        font-weight: 300;
+        } 
+
+        .abajo a {
+            color: rgba(151, 47, 195);
+            text-decoration: none;
+            font-weight: 400;
+        }
+        
+        .abajo a :hover {
+            text-decoration: underline;
+              }
+
+              .adelante {
+                display: flex;
+                flex-direction: row;
+                position: absolute;
+                bottom: 70px; /* Coloca .adelante justo encima del borde inferior de .centro */
+                left: -50px; /* Centra horizontalmente la sección */
+                transform: translateX(100%); /* Ajusta el posicionamiento horizontal para centrarlo */
+                z-index: 2; /* Asegura que esté encima de .centro */
+            }
+            
+            .adelante img {
+                margin: 0px;
+                width: 120px; /* Ajusta el tamaño de las imágenes según sea necesario */
+                height: 120px;
+            }
